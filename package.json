@@ -1,24 +1,29 @@
 {
-  "name": "react-native-multi-radio",
-  "version": "1.0.2",
-  "description": "React Native radio group",
+  "name": "mobileapp-update-check",
+  "version": "1.0.0",
+  "description": "Check the latest versions available on App store and Play Store.",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/parvejmallick/react-native-multi-radio.git"
+    "url": "git+https://github.com/parvejmallick/mobileapp-update-check.git"
   },
   "keywords": [
     "react-native",
-    "radio-group",
+    "update check",
+    "version check",
+    "store version",
     "Android",
     "iOS"
   ],
   "author": "Parvej Mallick",
   "license": "MIT",
-  "homepage": "https://github.com/parvejmallick/react-native-multi-radio/blob/master/readme.md",
+  "homepage": "https://github.com/parvejmallick/mobileapp-update-check/blob/master/readme.md",
+  "dependencies": {
+    "axios": "^0.18.0"
+  },
   "devDependencies": {
     "metro-react-native-babel-preset": "^0.59.0"
   }
