@@ -7,7 +7,9 @@ import Check from 'mobileapp-update-check';
 ###### For common app id
 ```js
 await Check.versions("COMMON_APPID");
-For different appIds for android and ios
+```
+###### For different appIds for android and ios
+```js
 await Check.versions("IOS_PACKAGENAME", "ANDROID_APPID");
 ```
 
